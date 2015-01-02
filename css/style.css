@@ -3,6 +3,15 @@
 
 body {
 	font-size: 100%;
+	background-color: #DDD;
+	width: 100%;
+}
+.container {
+	background-color: #D1CDD1;
+}
+nav {
+	color: #E4C313;
+	display: inline;
 }
 a {
 	font-family: 'Lato';
@@ -10,17 +19,11 @@ a {
 
 h1 {
 	font-family: 'Lato';
-	color: #2AA898;	
+	color: #cdcdcd;
+	background-color: #2AA898;
+	padding-left: 10px;	
 }
-.header {
-
-}
-.logo {
-	font-family: 'Playball'
-}
-.dropdown {
-	display: inline;
-}
-#side-bar {
-	display: block;
+h4 {
+	font-family: 'Playball';
+	color: #6b6b6b;
 }
