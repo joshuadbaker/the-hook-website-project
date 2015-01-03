@@ -9,21 +9,51 @@ body {
 .container {
 	background-color: #D1CDD1;
 }
+.page-header {
+	margin-top: 0;
+	background-color: #EFD313; 
+}
+#header {
+	float: right;
+	font-family: 'Lato';
+	color: #518BA4;
+	background-color: #EFD313; 
+	border: 0px;
+}
 nav {
 	color: #E4C313;
 	display: inline;
 }
+nav.navbar.navbar-default{
+	border: 0px;
+}
+.dropdown {
+	color: #E4C313;
+}
 a {
 	font-family: 'Lato';
+	color: #6b6b6b;
 }
 
 h1 {
-	font-family: 'Lato';
-	color: #cdcdcd;
+	font-family: 'Lato'; 
+	color: #FFEFDF;
 	background-color: #2AA898;
-	padding-left: 10px;	
+	padding-left: 10px;
+	margin-top: 0px;	
+}
+h2 {
+	font-family: 'Lato';
+	color: #cdcdcd; 
 }
 h4 {
 	font-family: 'Playball';
 	color: #6b6b6b;
+}
+#forums {
+	background-color: #AFAFAF; 
+}
+#features {
+	float: right;
+	background-color: #666;
 }
