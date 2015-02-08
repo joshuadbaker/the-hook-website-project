@@ -11,13 +11,13 @@ body {
 }
 .page-header {
 	margin-top: 0;
-	background-color: #EFD313; 
+	background-color: #00f6a6; 
 }
 #header {
 	float: right;
 	font-family: 'Lato';
 	color: #518BA4;
-	background-color: #EFD313; 
+	background-color: #f4fff6; 
 	border: 0px;
 }
 nav {
@@ -37,8 +37,8 @@ a {
 
 h1 {
 	font-family: 'Lato'; 
-	color: #FFEFDF;
-	background-color: #2AA898;
+	color: #f4fff6;
+	background-color: #3DB9A9;
 	padding-left: 10px;
 	margin-top: 0px;	
 }
@@ -55,5 +55,5 @@ h4 {
 }
 #features {
 	float: right;
-	background-color: #666;
+	background-color: #2c3f4e;
 }
