@@ -50,6 +50,12 @@ h4 {
 	font-family: 'Playball';
 	color: #6b6b6b;
 }
+
+.dropdown-menu {
+	background-color: #f4fff6;
+	opacity: .93; 
+}
+
 #forums {
 	background-color: #AFAFAF; 
 }
