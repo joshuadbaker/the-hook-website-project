@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>The Hook</title>
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom Style -->
@@ -13,7 +14,7 @@
 <body>
 	<div class="container">
 		<div class="row page-header">
-      	<button id="header" type="button" class="btn btn-default">Login/Signup</button>
+      	<a href="login.html"><button id="header" type="button" class="btn btn-default">Login/Signup</button></a>
 		</div>
 		<div class="col-md-3">
 			<h1>The Hook</h1>
@@ -160,11 +161,41 @@
 		</div>
 		<div id="features" class="col-md-9">
 			<h2>NAMM Rumors</h2>
+			<div id='frame'>
+				<div id="slide_tray">
+					<div class="slide">
+							<a class="news-link" href="http://www.imdb.com/name/nm0000195/"><img src="http://www.fillmurray.com/600/400" alt="Bill Murray" alt="Bill Murray"><h2>Bill Murray to Crash Winter NAMM?</h2></a>
+
+					</div>
+					<div class="slide">
+							<img src="http://www.fillmurray.com/600/400" alt="Bill Murray" alt="Bill Murray again">
+					</div>
+					<div class="slide">
+							<img src="http://www.fillmurray.com/600/400" alt="Bill Murray" alt="Bill Murray once more">
+					</div>
+				</div>
+				<a href="#" id="prev"><i class="fa fa-angle-left fa-5x"></i></a>
+				<a href="#" id="next"><i class="fa fa-angle-right fa-5x"></i></a>
+			</div>
 		</div>
+			
+			
 		<div id="features" class="col-md-9">
 			<h2>Featured Video Tutorials</h2>
-			<div class="slide">
-				<iframe width="600" height="400" src="https://www.youtube.com/watch?v=QaiB7WRxxCk" frameborder="0" allowfullscreen></iframe>
+			<div id="frame-2">
+				<div id="slide_tray-2">
+					<div class="slide">
+						<iframe width="600" height="400" src="http://www.youtube.com/embed/8Bd1hqHrUPU?rel=0&amp;controls=0$amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="slide">
+						<iframe width="600" height="400" src="http://www.youtube.com/embed/8Bd1hqHrUPU?rel=0&amp;controls=0$amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="slide">
+						<iframe width="600" height="400" src="http://www.youtube.com/embed/8Bd1hqHrUPU?rel=0&amp;controls=0$amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<a href="#" id="prev-1"><i class="fa fa-angle-left fa-5x"></i></a>
+				<a href="#" id="next-2"><i class="fa fa-angle-right fa-5x"></i></a>
 			</div>
 		</div>
 	</div>

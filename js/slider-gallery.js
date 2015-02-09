@@ -23,7 +23,7 @@ $(function(){
 			pos = 0; 
 		}			
 		var slideAmount = slideWidth * pos;
-		$('#slide_tray').animate({right: slideAmount}, 600);
+		$('#slide_tray').animate({right: slideAmount}, 400);
 	});
 
 	$('#prev').click(function(){
@@ -34,7 +34,7 @@ $(function(){
 		}
 		
 		var slideAmount = slideWidth * pos;
-		$('#slide_tray').animate({right: slideAmount}, 600);
+		$('#slide_tray').animate({right: slideAmount}, 400);
 	});
 	
 });
